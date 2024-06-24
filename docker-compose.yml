@@ -1,0 +1,8 @@
+services:
+  toolbox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kenhou/toolbox:daedalus
+    container_name: toolbox
+    restart: always
